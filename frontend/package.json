@@ -1,0 +1,26 @@
+{
+  "name": "trvl-travel-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TRVL travel and adventure website built with React and Vite.",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.3.0",
+    "vite": "8.3.0"
+  }
+}
